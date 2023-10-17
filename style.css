@@ -88,6 +88,9 @@ body *{
   left: initial; */
   animation: slide-left .4s forwards;
 }
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
+}
 
 #switch span{
   display: block;
@@ -172,7 +175,7 @@ footer{
   }
 
   .light {
-    --br-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
